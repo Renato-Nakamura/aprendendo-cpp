@@ -1,0 +1,19 @@
+{
+	"folders":
+	[
+		{
+			"path": "./",
+			"file_exclude_patterns": ["*.sublime-project"]
+		}
+	],
+	"build_systems":
+	[
+		{
+			"name":"Build testes",
+			"working_dir": "${project_path}",
+			"cmd": "g++ ./testes/*.cpp -I testes -o main && start main",
+			"selector":"source.c++",
+			"shell": true
+		}
+	]
+}
