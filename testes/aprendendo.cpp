@@ -46,10 +46,14 @@ int main(){
     cout << "lambda " << soma4(6) ;
 
     int value = 1;
+
     int bitwiseValue = value << 2;
-    int *pointer = &value;
     cout << bitwiseValue << endl;
-    cout << pointer;
+
+    int *pointer = &value; //salvando o local armazenado do valor em uma variavel
+    cout << pointer; //imprimindo o local
+    cout << *pointer; //pegando o valor original
+
 
     std::cin.get();
 

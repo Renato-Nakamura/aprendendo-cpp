@@ -1,0 +1,3 @@
+﻿E:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(517,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Hello World.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+Main.obj : error LNK2019: unresolved external symbol "void __cdecl Log(char const *)" (?Log@@YAXPBD@Z) referenced in function _main
+C:\Users\renat\Documents\projetos\aprendendo c++\vs\Hello World\Debug\HelloWorld.exe : fatal error LNK1120: 1 unresolved externals
